@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(154, 206, 225, 0.207);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navtop{
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav{
+    height: 100px;
+    background-color: rgb(111, 154, 138);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navlogo{
+    height: 70px;
+    width: 130px;
+    float: left;
+    border-radius: 40%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#navsearch{
+    width: 650px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.logos{
+    margin-top: 65px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#nava{
+    text-decoration: none;
+    color: white;
+}
+
+.navbottom{
+    height: 40px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+
+#navb{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+#navb:hover{
+    border-bottom: 2px solid red;
+}
+
+#bh{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.body1{
+    height: 600px;
+    border-top: 2px solid yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+    background-image: url(img/hero1.jpg);
+    background-size: cover;
+}
+
+.body2{
+    height: 400px;
+    border: 5px solid rgba(11, 11, 11, 0.742);
+    margin: 50px;
+    display: flex;
+    background-color: rgba(246, 236, 238, 0.667);
+    border-radius: 5px;
+}
+
+#b1{
+    height: 400px;
+    width: 900px;
+    margin-left: 90PX;
+}
+
+#b11{
+    height: 400px;
+    width: 900px;
+}
+
+.off{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: xx-large;
+}
+
+.off1{
+    margin-top: 100px;
+    margin-left: 130px;
+    font-size: xx-large;
+}
+
+.content{
+    height: 955px;
+    margin: 50px;
+    border: 5px solid rgba(11, 11, 11, 0.742);
+    border-radius: 5px;
+}
+
+.main{
+    height: 350px;
+    margin: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2{
+    height: 350px;
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main1{
+    width: 750px;
+    height: 400px;
+    border: 5px solid rgba(11, 11, 11, 0.742);
+    border-radius: 5px;
+}
+
+#main2{
+    width: 500px;
+    height: 400px;
+    border: 5px solid rgba(11, 11, 11, 0.742);
+    border-radius: 5px;
+}
+
+.c001{
+    height: 400px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#c01{
+    height: 280px;
+    width: 440px;
+    border: 5px solid rgba(11, 11, 11, 0.742);
+    border-radius: 5px;
+}
+
+#maincontent{
+    display: flex;
+    justify-content: center;
+}
+
+.c002{
+    height: 400px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.footer{
+    height: 40px;
+    background-color: #80a6c397;
+    margin-top: 900px;
+    padding-top: 20px;
+}
+
+#har1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer1{
+    height: 290px;
+    background-color: rgba(64, 167, 167, 0.63);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+
+ul{
+    margin: 50px;
+}
+
+#f1{
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer2{
+    height: 100PX;
+    background-color: rgba(42, 137, 137, 0.63);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 40px;
+}
+
+#a11{
+    font-size: large;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.footer3{
+    height: 30PX;
+    background-color: rgba(122, 103, 140, 0.653);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
